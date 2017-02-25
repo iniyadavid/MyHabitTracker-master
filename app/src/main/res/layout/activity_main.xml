@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f3c5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY HABIT TRACKER"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textColor="#168c16"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Habit and Duration!"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textColor="#e47b19"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Habit "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#8809c2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:id="@+id/habitEditText"
+        android:hint="Type Habit"
+        android:textColor="@color/colorAccent"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#8809c2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:id="@+id/durationEditText"
+        android:hint="Type Duration"
+        android:textColor="@color/colorAccent"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/insertbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Details!"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Habit to know the duration you spend!"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textColor="#e47b19"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Habit "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#8809c2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:id="@+id/habitEditText1"
+        android:hint="Type Habit"
+        android:textColor="@color/colorAccent"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/getbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Details!"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Habit and Duration "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#8809c2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/colorAccent"
+        android:id="@+id/result1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to delete entries made!"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textColor="#e47b19"/>
+    <Button
+        android:id="@+id/deletebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Details!"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"/>
+</LinearLayout>
+</ScrollView>
